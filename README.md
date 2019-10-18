@@ -1,6 +1,6 @@
 # Fluent::Plugin::Myscrub
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fluent/plugin/myscrub`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fluent/plugin/`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -8,21 +8,29 @@ TODO: Delete this and the text above, and describe your gem
 
 Add this line to your application's Gemfile:
 
+you should download the gem file `fluent-plugin-myscrub-0.1.0.gem`
+
 ```ruby
-gem 'fluent-plugin-myscrub'
+gem install --local fluent-plugin-myscrub-0.1.0.gem
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fluent-plugin-myscrub
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+<source>
+  @type forward
+  port 24224
+</source>
+<filter **>
+  @type myscrub
+</filter>
+ <match **>
+   @type file
+   path /tmp/test
+</match>
+ 
+```
 
 ## Development
 
