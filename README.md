@@ -22,9 +22,9 @@ Or install it yourself as:
 ## Configuration
 
 ```
-<match **>
+<filter **>
   @type myscrub
-</match>
+</filter>
 ```
 
 ## Usage
@@ -34,9 +34,9 @@ Or install it yourself as:
   type forward
 </source>
 
-<match **>
+<filter **>
   type myscrub
-</match>
+</filter>
 
 <match **>
   type stdout
