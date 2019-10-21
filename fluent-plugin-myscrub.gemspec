@@ -4,7 +4,7 @@ require "fluent/plugin/myscrub/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-myscrub"
-  spec.version       = Fluent::Plugin::Myscrub::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["dengbo"]
   spec.email         = ["dengbo02@inspur.com"]
 
