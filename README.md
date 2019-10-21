@@ -34,7 +34,7 @@ Or install it yourself as:
   type forward
 </source>
 
-<match r**>
+<match **>
   type myscrub
 </match>
 
