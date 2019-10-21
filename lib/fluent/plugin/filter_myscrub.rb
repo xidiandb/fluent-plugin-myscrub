@@ -44,7 +44,7 @@ module Fluent::Plugin
       if @@flag == 0 then
         record
       else 
-	    @@flag = 0
+        @@flag = 0
         nil
       end
     end
