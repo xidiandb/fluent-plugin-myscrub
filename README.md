@@ -1,21 +1,12 @@
-# fluent-plugin-myscrub
+# fluent-plugin-myscrub [![Gem Version](https://badge.fury.io/rb/fluent-plugin-myscrub.svg)](https://rubygems.org/gems/fluent-plugin-myscrub)
 
 Fluent plugin for drop a event that include a invalid bytes in utf-8
 
 
 ## Installation
 
-Add this line to your application's Gemfile:
 
-```ruby
-gem 'fluent-plugin-myscrub'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install fluent-plugin-myscrub
 
