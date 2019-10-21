@@ -34,11 +34,11 @@ Or install it yourself as:
   type forward
 </source>
 
-<match raw.**>
+<match r**>
   type myscrub
 </match>
 
-<match scrubbed.**>
+<match **>
   type stdout
 </match>
 ```
